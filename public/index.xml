@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Confidential Evaluation of Software Trustworthiness  on CEST</title>
+    <title>CEST</title>
     <link>http://cest.se/</link>
-    <description>Recent content in Confidential Evaluation of Software Trustworthiness  on CEST</description>
+    <description>Recent content on CEST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Nov 2022 12:20:17 +0100</lastBuildDate><atom:link href="http://cest.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 10:40:47 +0100</lastBuildDate><atom:link href="http://cest.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Article2</title>
-      <link>http://cest.se/articles/article2/</link>
-      <pubDate>Tue, 08 Nov 2022 15:13:04 +0100</pubDate>
+      <title>Atrticle1</title>
+      <link>http://cest.se/articles/atrticle1/</link>
+      <pubDate>Thu, 10 Nov 2022 10:37:48 +0100</pubDate>
       
-      <guid>http://cest.se/articles/article2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin semper urna, et porta nisl. Nam convallis dui sed elit commodo, sed suscipit dolor dapibus. Aliquam eget mollis tellus, sit amet auctor dui. Praesent velit purus, feugiat ut aliquam vitae, pellentesque vel eros. Nullam tempor odio massa, vitae scelerisque nisl accumsan non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas blandit sapien in enim vestibulum pulvinar.</description>
-    </item>
-    
-    <item>
-      <title>Article1</title>
-      <link>http://cest.se/articles/article1/</link>
-      <pubDate>Tue, 08 Nov 2022 14:29:54 +0100</pubDate>
-      
-      <guid>http://cest.se/articles/article1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin semper urna, et porta nisl. Nam convallis dui sed elit commodo, sed suscipit dolor dapibus. Aliquam eget mollis tellus, sit amet auctor dui. Praesent velit purus, feugiat ut aliquam vitae, pellentesque vel eros. Nullam tempor odio massa, vitae scelerisque nisl accumsan non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas blandit sapien in enim vestibulum pulvinar.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://cest.se/about/</link>
-      <pubDate>Tue, 08 Nov 2022 12:22:26 +0100</pubDate>
-      
-      <guid>http://cest.se/about/</guid>
-      <description></description>
+      <guid>http://cest.se/articles/atrticle1/</guid>
+      <description>hej</description>
     </item>
     
   </channel>

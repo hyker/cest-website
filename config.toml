@@ -1,18 +1,48 @@
 baseURL = 'http://cest.se/'
 languageCode = 'en-us'
+theme = 'graysx'
 title = 'CEST'
-theme = "ananke"
 
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
-enableRobotsTXT = true
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
+## Site Settings
 [params]
-custom_css = ["custom.css"]
-site_logo = "images/logo.png"
+logo = "assets/img/CEST-logo-simple-white.png"
+favicon = "assets/favicon.png"
+
+# Info
+address = "123 Arch B1W, GNU/Linux"
+email = "cest@cest.com"
+phone = "123456"
+
+# Socials
+
+twitter = "#"
+facebook = "#"
+github = "#"
+
+# Other
+
+# Startbootstrap Contact Form Token https://startbootstrap.com/solution/contact-forms
+sbtoken = "TOKEN_HERE"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "/#about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Articles"
+  URL = "/articles"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "/#signup"
+  weight = 3
+
+
+# Credits
+
+# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
+# This theme is forked by: https://github.com/akatiggerx04

@@ -15,4 +15,4 @@ enableRobotsTXT = true
 
 [params]
 custom_css = ["custom.css"]
-site_logo = "images/logowhite.png"
+site_logo = "images/logo.png"

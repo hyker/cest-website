@@ -5,8 +5,8 @@ title = 'CEST'
 
 ## Site Settings
 [params]
-logo = "assets/img/CEST-logo-simple-white.png"
-favicon = "assets/favicon.png"
+logo = "/assets/img/CEST-logo-simple-white.png"
+favicon = "/assets/favicon.png"
 
 # Info
 address = "123 Arch B1W, GNU/Linux"
@@ -38,7 +38,7 @@ sbtoken = "TOKEN_HERE"
 
   [[menu.main]]
   name = "Contact"
-  URL = "/#signup"
+  URL = "/#contact"
   weight = 3
 
 

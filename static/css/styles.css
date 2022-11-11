@@ -11614,7 +11614,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11623,6 +11623,13 @@ body {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+    max-height: 14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    white-space: normal;
   }
 }
 .projects-section .project-text {
@@ -11705,4 +11712,9 @@ body {
 .about-btn {
   margin-top: -50px;
   margin-bottom: 20px;
+}
+
+/* cest css */
+#content {
+  margin-top: 150px;
 }

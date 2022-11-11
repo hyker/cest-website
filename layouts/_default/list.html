@@ -1,3 +1,48 @@
-{{ define "main"}}
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <h1 class="text-center">{{ .Title }}</h1>
+            {{ range .Pages.ByPublishDate.Reverse }}
+            <section class="projects-section bg-light" id="projects">
+                <div class="container px-4 px-lg-5">
+                    <!-- Featured Project Row-->
+                    <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                        <div class="col-xl-8 col-lg-7">
 
+                            <img class="img-fluid mb-3 mb-lg-0" src="{{ .Params.featured_image }}" alt="..." />
+
+                        </div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>{{ .Title }}</h4>
+                                <p class="text-black-50 mb-0">{{ .Summary }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{ end }}
+        </div>
+        <div class="col-4">
+            <h1>Tags</h1>
+            <ul class="pa0">
+                {{ range (.GetTerms "tags") }}
+                <li class="list di">
+                    <a href="{{ .RelPermalink }}"
+                        class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+                        {{- .LinkTitle -}}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    <!-- <p>
+    <a class="summary" href="{{ .RelPermalink }}">
+        <p>{{ .Summary }}</p>
+    </a>
+</p> -->
+
+</div>
 {{ end }}

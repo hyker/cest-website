@@ -2,7 +2,9 @@
 title: "Article1"
 date: 2022-11-10T14:47:57+01:00
 featured_image: "/assets/img/circuit.jpg"
-tags: ["sgx", "5G"]
+tags: 
+- "sgx" 
+- "5G"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat orci, posuere ultrices egestas eu, ultrices ut lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium nec purus ac vestibulum. Curabitur vehicula ex nibh, id tincidunt urna efficitur consectetur. Nulla et feugiat justo. Curabitur aliquam fermentum orci sit amet convallis. Nulla gravida, magna congue mattis elementum, lorem risus vestibulum magna, et volutpat metus nulla ac ligula. Aliquam quis efficitur tortor. Donec sed tincidunt mauris, sed tincidunt eros. Sed vel sollicitudin justo. Donec sed dolor nec leo fringilla viverra dictum eget leo.
 

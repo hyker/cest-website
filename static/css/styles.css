@@ -11627,7 +11627,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box !important;
-    -webkit-line-clamp: 9;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
     white-space: normal;
   }
@@ -11716,5 +11716,9 @@ body {
 
 /* cest css */
 #content {
-  margin-top: 150px;
+  margin-top: 140px;
+}
+
+.tag-column {
+  padding: 80px 0;
 }

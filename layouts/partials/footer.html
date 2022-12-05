@@ -1,5 +1,14 @@
 <!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50 mt-auto"><div class="container px-4 px-lg-5">Copyright &copy; {{ .Site.Title }} {{ now.Format "2006"}}</div></footer>
+<footer class="footer bg-black small text-center text-white-50 mt-auto">
+    <div>
+        <img src="{{ .Site.Params.footer_logo }}" alt="" class="vinnova-img">
+        <p>This project has received funding from the Swedish Vinnova Innovation
+Agency with diary number No 2021-01690.</p>
+    </div>
+    <div class="container px-4 px-lg-5">
+        &copy; {{ .Site.Title }}. All rights reserved. <!--{{ now.Format "2006"}}-->
+    </div>
+</footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->

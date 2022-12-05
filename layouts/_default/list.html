@@ -1,39 +1,9 @@
 {{ define "main" }}
 <div class="container">
-    <div class="row">
-        <div class="col-lg-9">
-            <h1 class="text-center">{{ .Title }}</h1>
-            {{ range .Pages.ByPublishDate.Reverse }}
-            <section class="projects-section bg-light mt-4" id="projects">
-                <div class="container px-4 px-lg-5">
-                    <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="col-xl-7 col-lg-8">
-                            <a href="{{ .RelPermalink }}">
 
-                                <img class="img-fluid mb-3 mb-lg-0" src="{{ .Params.featured_image }}" alt="..." />
-                            </a>
-                        </div>
-                        <div class="col-xl-5 col-lg-4">
-                            <div class="featured-text text-center text-lg-left">
-                                <a href="{{ .RelPermalink }}" class="text-decoration-none text-reset"><h4>{{ .Title }}</h4></a>
-                                <p class="text-black-50 mb-0">{{ .Summary }}</p>
-                            </div>
-                        </div>
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ .Content }}
 
-                    </div>
-                </div>
-            </section>
-            {{ end }}
-        </div>
-        <div class="col-lg-3 tag-column">
-            {{- partial "tags.html" . -}}
-        </div>
-    </div>
-    <!-- <p>
-    <a class="summary" href="{{ .RelPermalink }}">
-        <p>{{ .Summary }}</p>
-    </a>
-</p> -->
 
 </div>
 {{ end }}

@@ -9,24 +9,62 @@ main:
 
 # About
 about:
-  title: "About us"
-  desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
+  title: "Introduction"
+  desc1: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
+  desc2: "The CEST project was established to address the challenge of finding a solution that would allow confidential software security analysis without exposing the evaluated software itself, and still providing software analysis reports for assurance purposes."
   button:
     enable: true
-    text: "Button"
-    url: "/#"
-  image: ""
+    text: "About"
+    url: "/about"
+  image: "assets/img/analysis.jpg"
 
-# projects:
-#   card1:
-#     title: "Graysx"
-#     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-#     img: "assets/img/bg-masthead.jpg"
-#   card2:
-#     title: "Graysx"
-#     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-#     img: "assets/img/demo-image-01.jpg"
-#   card3:
-#     title: "Graysx"
-#     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-#     img: "assets/img/demo-image-02.jpg"
+members:
+  card1:
+    title: "Atsec"
+    text: "atsec information security is a vendor independent company specialized in IT
+security evaluations and assessments. The company operates accredited
+Common Criteria evaluation facilities in Germany, Sweden, US, Italy, and
+Singapore with more than 200 completed CC evaluations, most of them being
+complex software products. In addition, atsec is a GSMA NESAS and SCAS
+accredited testing laboratory for the telecom industry. atsec is a contributor in
+the development of international, normative IT security standards, such as ISO,
+GSMA. CCUF, 3GPP ENISA Cyber Security Act, etc. atsec has a very high
+level of expertise in security evaluation products, and systems against
+standardized criteria. atsec has specialized in the evaluation of operating
+systems, separation kernels and opensource technology. atsec has a long
+experience in developing security requirements and performing evaluations for
+IT security products, such as for high-assurance separation kernels and security enclaves. atsec information security AB is the Swedish subsidiary
+of atsec, focused on security evaluation of IT products for the IT and telecom
+industry."
+    img: "assets/img/atsec.jpg"
+  card2:
+    title: "Ericsson"
+    text: "Ericsson AB is a Swedish company in the Ericsson Group – one of the leading
+providers of Information and Communication Technology (ICT) to service
+providers. Ericsson AB in Sweden employs around 13 000 people from 100
+nationalities and is the largest employer of engineers. Ericsson strives to be a
+gender intelligent organization that recognizes and values the differences
+everyone brings to the workplace."
+    img: "assets/img/ERI_vertical_RGB.png"
+  card3:
+    title: "Hyker"
+    text: "Hyker Security is a Swedish majority owned spin-out from Saab Ventures.
+Hyker’s approach to cybersecurity is in protecting data rather than
+infrastructure over the whole lifecycle. Therefore, Hyker has engineered a
+platform, True Full Lifecycle Encryption (TFLE), that is enabled by our unique
+technology which can be built into IoT solutions, Web applications and
+other solutions where trust and integrity is of importance in a cloud
+environment. Hyker’s technical platform has attracted a lot of attention in the
+last twelve months due to the pandemic and digitalization in combination with
+securing data in transit or at rest."
+    img: "assets/img/hyker.png"
+  card4:
+    title: "RISE"
+    text: "RISE Cybersecurity, the research and technology partner in CEST, is at the
+forefront of the cybersecurity research and development landscape in Europe.
+RISE is currently running sixteen (16) security projects, focused on IoT, cloud,
+software, AI/ML, and trusted/confidential computing, among others. RISE is
+coordinating the Swedish National Cybersecurity Research and Innovation
+Node (Cybernode.se) where industry, public sector, civil defense, and
+academia participate."
+    img: "assets/img/rise.png"

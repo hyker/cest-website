@@ -1,17 +1,17 @@
 ---
-title: "Article1"
+title: "Discovering Confidential Computing: Essential Insights for Secure Source Code Reviews."
 date: 2022-11-10T14:47:57+01:00
 featured_image: "/assets/img/circuit.jpg"
 tags: 
-- "sgx" 
-- "5G"
+- "SGX" 
+- "TEE"
+- "Source Code Review"
+- "Confidential Computing"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat orci, posuere ultrices egestas eu, ultrices ut lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium nec purus ac vestibulum. Curabitur vehicula ex nibh, id tincidunt urna efficitur consectetur. Nulla et feugiat justo. Curabitur aliquam fermentum orci sit amet convallis. Nulla gravida, magna congue mattis elementum, lorem risus vestibulum magna, et volutpat metus nulla ac ligula. Aliquam quis efficitur tortor. Donec sed tincidunt mauris, sed tincidunt eros. Sed vel sollicitudin justo. Donec sed dolor nec leo fringilla viverra dictum eget leo.
+Confidential computing is a relatively new technology that is gaining traction in the software development industry. It is a cloud computing technology that isolates sensitive data in a protected CPU enclave during processing, eliminating the remaining data security vulnerability by protecting data in use. This technology is essential for secure source code reviews, as it allows for the secure storage and analysis of source code without the risk of exposing intellectual property.
 
-Integer sit amet hendrerit odio, non egestas mi. Ut eleifend, tortor et eleifend aliquam, purus turpis consequat metus, ac pharetra libero augue nec nisl. Mauris ut massa ultrices, porttitor tortor id, tempus enim. Sed lectus lectus, molestie ut hendrerit vitae, maximus quis arcu. Pellentesque placerat, diam non blandit cursus, ligula dolor ullamcorper orci, at blandit dolor augue nec lectus. Vestibulum scelerisque, sem sed pellentesque pretium, ligula massa finibus lorem, eu lacinia leo nibh vitae erat. Nulla posuere, lorem quis efficitur tempus, erat sapien sollicitudin velit, sit amet finibus ex nibh non arcu. Pellentesque dapibus tempor semper. Nam consequat diam sed pharetra sollicitudin.
+Confidential computing is especially useful for source code reviews conducted by third-party auditors. It allows the auditor to access the source code without revealing any confidential information, while still providing the necessary data for the review. This is especially important for companies that operate in multiple jurisdictions, as it allows them to maintain trust across different countries and regulations.
 
-Maecenas et lacus vitae justo semper imperdiet eu id leo. Aliquam a leo in ante dignissim sollicitudin vel in nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam interdum ex vitae magna iaculis hendrerit. Vivamus in justo non ipsum aliquet tristique eget blandit eros. Sed semper sodales augue, eget posuere magna lacinia a. Nam vulputate sem eu urna mollis ultrices. Ut vitae tempus enim. Donec libero ex, elementum in ultrices sed, fringilla nec arcu. Nunc eget rhoncus tellus, sed dapibus ex. Aliquam gravida sem id scelerisque molestie. Etiam pharetra odio at enim tristique, quis interdum massa elementum. Fusce est augue, tincidunt at odio non, mollis bibendum lectus. Curabitur egestas porta neque in facilisis.
+Confidential computing also allows for the use of automated software analysis tools, which can be used to detect vulnerabilities and compliance issues in the source code. This is especially useful for companies that have large codebases, as it allows them to quickly and accurately identify any potential issues. Additionally, confidential computing can be used to securely store and analyze the output from these tools, ensuring that any confidential information is not exposed.
 
-Vestibulum orci nibh, volutpat vel sem eu, interdum accumsan nunc. Pellentesque non nulla in lectus malesuada rhoncus. Vestibulum non placerat purus. Pellentesque tincidunt nibh nunc, in rhoncus odio posuere vel. Cras hendrerit cursus nunc. Aliquam elit ex, sodales quis dictum eget, vehicula vel mi. Mauris malesuada ac lectus in placerat. Curabitur eget risus et tortor cursus egestas. Fusce feugiat turpis blandit suscipit fringilla. Aenean sagittis turpis leo. Integer ut mi vel tortor tristique efficitur eu ac metus. Donec sodales nibh at cursus feugiat.
-
-In euismod augue lacus, ac tempus elit ultricies in. Etiam lobortis mattis ligula in fermentum. Nulla facilisi. Integer elit lorem, scelerisque cursus augue consequat, maximus vestibulum urna. Aliquam et leo lacinia eros maximus mollis ultrices non orci. Integer a velit et massa ultrices dignissim. Vestibulum aliquam neque at diam condimentum, eu volutpat mi congue. Morbi suscipit elit nec purus molestie pulvinar. Nulla sed magna bibendum, placerat sem sed, dapibus turpis. In hac habitasse platea dictumst. Ut fringilla blandit magna, vel accumsan orci bibendum eu. Praesent tempus eget tortor et ultricies. 
+Overall, confidential computing is an essential technology for secure source code reviews. It allows for the secure...

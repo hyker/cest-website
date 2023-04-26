@@ -1,8 +1,8 @@
 # Main Title
 main:
   header:
-    title : "CEST" # Title Text
-    description : "Confidential Evaluation Software Trustworthyness" # Title Desc
+    title : "C.E.S.T" # Title Text
+    description : "Confidential Evaluation of Software Trustworthyness" # Title Desc
     button:
       text: "Learn More" # Button Text
       url: "/#about" # Button URL
@@ -10,13 +10,14 @@ main:
 # About
 about:
   title: "Introduction"
-  desc1: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
-  desc2: "The CEST project was established to address the challenge of finding a solution that would allow confidential software security analysis without exposing the evaluated software itself, and still providing software analysis reports for assurance purposes."
+  desc1: "Balancing the need for security assurance with protecting intellectual property, we provide a comprehensive evaluation while safeguarding vendors' proprietary technologies and processes"
+  desc2: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
   button:
     enable: true
     text: "About"
     url: "/about"
   image: "assets/img/analysis.jpg"
+  video: "assets/vid/short-vid.mp4#t=3"
 
 members:
   card1:

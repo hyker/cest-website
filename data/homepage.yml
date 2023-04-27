@@ -8,16 +8,35 @@ main:
       url: "/#about" # Button URL
 
 # About
-about:
+introduction:
   title: "Introduction"
-  desc1: "Balancing the need for security assurance with protecting intellectual property, we provide a comprehensive evaluation while safeguarding vendors' proprietary technologies and processes"
-  desc2: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
+  desc2: "The CEST project was established to address the challenge of finding a solution that would allow confidential software security analysis without exposing the evaluated software itself, and still providing software analysis reports for assurance purposes."
+  desc1: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
   button:
     enable: true
     text: "About"
     url: "/about"
   image: "assets/img/analysis.jpg"
   video: "assets/vid/short-vid.mp4#t=3"
+
+about:
+  title: "About"
+  items:
+    - title: "Purpose"
+      text: "The project aimed to contribute to the development of a more secure and trustworthy software ecosystem, particularly in the Telco industry domain"
+      img: "assets/img/puropuse.png"
+    - title: "Driving Force"
+      text: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators."
+      img: "assets/img/key.jpg"
+    - title: "Goal"
+      text: "The CEST project aimed to conduct a risk analysis of a third-party trust model for software evaluation, investigate confidential computing technologies and adapt software analysis tools. It also aimed to advance cybersecurity in Sweden and disseminate results to the wider community."
+      img: "assets/img/goal.png"
+    - title: "Challenge"
+      text: "Balancing the need for security assurance with protecting intellectual property, we provide a comprehensive evaluation while safeguarding vendors' proprietary technologies and processes"
+      img: "assets/img/challange.png"
+    - title: "Solution"
+      text: "Proposed solution for the CEST project involves confidential computing technologies, software analysis tools, and methodologies for security software assurance. The CEST platform will provide representative test use cases for the Telco industry domain and suggestions for standardization"
+      img: "assets/img/sulution.png"
 
 members:
   card1:
@@ -69,3 +88,4 @@ coordinating the Swedish National Cybersecurity Research and Innovation
 Node (Cybernode.se) where industry, public sector, civil defense, and
 academia participate."
     img: "assets/img/rise.png"
+

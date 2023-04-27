@@ -14,13 +14,13 @@ introduction:
   desc1: "Several countries and standards are putting forward security assurance regulations on ICT supply chains, on vendors, and on service providers to ensure the trustworthiness of their products and services. Many of the requirements require high transparency towards 3 rd party authorized auditors and evaluators. Certainly, the more evidence about how products are developed, the better assurance can be conducted. But, on the other hand, wider and deeper insight into vendors’ processes and products increases the risk of compromising the intellectual property contained in leading-edge proprietary software technologies, enterprise product life-cycle management processes, and know-how."
   button:
     enable: true
-    text: "About"
-    url: "/about"
+    text: "Vision"
+    url: "/#vision"
   image: "assets/img/analysis.jpg"
   video: "assets/vid/short-vid.mp4#t=3"
 
 about:
-  title: "About"
+  title: ""
   items:
     - title: "Purpose"
       text: "The project aimed to contribute to the development of a more secure and trustworthy software ecosystem, particularly in the Telco industry domain"

@@ -11784,3 +11784,35 @@ h2.text-white-50.mx-auto.mt-2.mb-5 {
 .video-container-cest:hover::after {
   opacity: 0;
 }
+
+.vision-section {
+    padding: 50px;
+}
+
+.vision-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.vision-icon {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #007bff;
+    text-align: center;
+    min-width: 50px;
+}
+
+.vision-icon {
+  font-size: 40px;
+  margin-right: 20px;
+  color: #007bff;
+}
+
+.vision-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+

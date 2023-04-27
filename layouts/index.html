@@ -3,6 +3,7 @@
 {{- partial "head.html" . -}}
 <body id="page-top">
 {{- partial "header.html" . -}}
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -17,7 +18,8 @@
                 </div>
             </div>
         </header>
-        <!-- About-->
+
+        <!-- introduction -->
         {{ with site.Data.homepage.introduction }}
         <section class="about-section " id="about">
             <div class="container px-4 px-lg-5">
@@ -44,7 +46,8 @@
             </div>
         </section>
         {{ end }}
-        <!-- Members -->
+
+        <!-- About -->
         {{ with site.Data.homepage.about }}
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5 ">
@@ -71,6 +74,84 @@
             </div>
         </section>
         {{ end }}
+
+        <!-- Members -->
+        {{ with site.Data.homepage.members }}
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5 ">
+                <!-- Featured Project Row-->
+                <!-- <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ .card1.img }}" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>{{ .card1.title }}</h4>
+                            <p class="text-black-50 mb-0">{{ .card1.text }}</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Project One Row-->
+                <h1 id="consortium" style="text-align: center;">Consortium</h1>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6 align-items-center justify-content-center d-flex"><img class="img-fluid" src="{{ .card1.img }}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">{{ .card1.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card1.text }}</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6 align-items-center justify-content-center d-flex"><img class="img-fluid p-5 consortium-img" src="{{ .card2.img }}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">{{ .card2.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card2.text }}</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6 align-items-center d-flex"><img class="img-fluid p-5" src="{{ .card3.img }}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">{{ .card3.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card3.text }}</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6 align-items-center d-flex"><img class="img-fluid p-5" src="{{ .card4.img }}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">{{ .card4.title }}</h4>
+                                    <p class="mb-0 text-white-50">{{ .card4.text }}</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ end }}
+
         <!-- Contact-->
         <section class="contact-section bg-black" id="contact">
             <div class="container px-4 px-lg-5">

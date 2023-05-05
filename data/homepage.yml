@@ -40,22 +40,9 @@ about:
 
 members:
   card1:
-    title: "atsec"
-    text: "atsec information security is a vendor independent company specialized in IT
-security evaluations and assessments. The company operates accredited
-Common Criteria evaluation facilities in Germany, Sweden, US, Italy, and
-Singapore with more than 200 completed CC evaluations, most of them being
-complex software products. In addition, atsec is a GSMA NESAS and SCAS
-accredited testing laboratory for the telecom industry. atsec is a contributor in
-the development of international, normative IT security standards, such as ISO,
-GSMA. CCUF, 3GPP ENISA Cyber Security Act, etc. atsec has a very high
-level of expertise in security evaluation products, and systems against
-standardized criteria. atsec has specialized in the evaluation of operating
-systems, separation kernels and opensource technology. atsec has a long
-experience in developing security requirements and performing evaluations for
-IT security products, such as for high-assurance separation kernels and security enclaves. atsec information security AB is the Swedish subsidiary
-of atsec, focused on security evaluation of IT products for the IT and telecom
-industry."
+    title: "atsec AB"
+    text: "atsec AB is the Swedish subsidiary of atsec information security, an independent and privately-owned company focusing on providing testing, evaluation and audit services for information security.
+The company operates an accredited lab for Common Criteria evaluations, and is a GSMA NESAS appointed auditor and authorised SCAS test lab for the telecom industry. In addition, atsec AB runs a private Certification Body accredited by SWEDAC (Sweden’s national accreditation body) to provide Common Criteria certifications of IT products."
     img: "assets/img/atsec.jpg"
   card2:
     title: "Ericsson"

@@ -3,9 +3,8 @@ title: "Criteria for Selecting the Right Assurance Tools for Your Project"
 date: 2022-11-10T10:59:01+01:00
 featured_image: "/assets/img/criteria.png"
 tags: 
-- "TEST"
-- "GENERATED"
-- "AI"
+- "Assurance"
+- "tools"
 ---
 ## Introduction:
 When it comes to software assurance, choosing the right tools can make all the difference. In this blog post, we'll share the key criteria to consider when selecting assurance tools, based on the "CEST Assurance Study." By understanding these criteria, you can make a more informed decision and ensure that your assurance tools will be effective in addressing your project's specific needs.

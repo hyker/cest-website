@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="/assets/favicon.png" />
+    
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    
+    <link href="/css/styles.css" rel="stylesheet" />
+    
+    
+    <title>CEST | Confidential Computing can ease the trust burden in Software Assurance.</title>
+</head><body class="min-vh-100 d-flex flex-column">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+    <div class="container px-4 px-lg-5 ">
+        <a class="navbar-brand" href="/#page-top"><img src="/assets/img/CEST-logo-simple-white.png"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                
+                <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="/#vision">Vision</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="/articles">Articles</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="/#consortium">Consortium</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <h1>Confidential Computing can ease the trust burden in Software Assurance.</h1>
+            <img src="/assets/img/factory.png" class="img-fluid mb-3 article-image" alt="...">
+            <p>Hyker is project partner in collaboration with RISE, Ericsson, atsec investigating how confidential computing solves trust issues in software assurance. The project is called Confidential Evaluation of Software Trustworthiness (CEST) and is funded by Vinnova – Sweden’s Innovation Agency.  </p>
+<p>But before we dive into the potential of Confidential Computing, let&rsquo;s take a brief look at the history of assurance throughout the history of computing.  </p>
+<p>The increased complexity of software systems has led to the situation where their security and reliability have become more necessary and more challenging. As a response, researchers and developers are constantly advancing software assurance techniques and tools that increase the assurance productivity. For example, one advancement in software assurance is the use of fuzz testing, which involves automatically generating random inputs to a program in order to find unexpected behavior. Fuzz testing has been shown to be effective at identifying security vulnerabilities that might have been missed by traditional manual testing methods. </p>
+<p>Despite constant advances in software security assurance, the demand for increased security is higher than ever. In today&rsquo;s digital world, the number of business-critical programs has skyrocketed. This coupled with the fact that software updates and patches are being released more frequently leads to a high burden for software vendors and assurance teams. </p>
+<p>State-of-the-art software development incorporates security analysis tools into the Continuous Integration/Continuous Deployment (CI/CD) process which should in principle ease the burden for assurance. However, the trustworthiness of the results of these tools are unverifiable, meaning that the trust is on the developers. But the increasing globalization of software supply chains means that we can no longer trust software providers automatically. As such, there is a higher demand for independent assurance of the complete software supply chain.  </p>
+<p>Another factor driving demand for assurance is critical infrastructure. Much of our roads, trains, water, and 5G, are relying heavily on software. And nation states and regulators in general are increasingly tightening the demands for software trustworthiness. For example In India, the Indian Telecom Security Assurance Requirements requires that 5G Vendors  “&hellip; shall submit the source code to the Telecom Security Testing Laboratory”. This creates a need for trust in the other direction, since software vendors don’t want to increase the threat surface by exposing their software in all jurisdictions that require software access for assurance compliance due to the valuable Intellectual Property realized in software. </p>
+<p>Confidential Computing is an emerging technology that can solve this dilema. Confidential Computing allows for the computation of sensitive data in a secure environment, where the data cannot be accessed by unauthorized parties, even those with privileged access to the system “root administrators”. This technology can be used to produce trusted reports (attestable) on the source code that the assurance labs can use instead of viewing the actual source code. </p>
+<p>But how exactly does Confidential Computing produce trusted reports? Confidential Computing allows for confidential software analysis using a Trusted Execution Environment (TEE), a security technology that protects the execution of code and the confidentiality and integrity of data. The TEE ensures that the analysis is performed in a secure environment and that the results are trustworthy. This means that analysis tools used for software assurance can run inside a TEE thus protecting the Vendors sensitive Intellectual Property (IP). </p>
+<p>Therefore, Confidential Computing has been used to develop a prototype of Confidential Evaluation of Software Trustworthiness (CEST), which is the first step towards a safe and inevitable, more automated software supply chain assurance. CEST allows measuring the assurance level of software without exposing the company&rsquo;s sensitive IP. Having an assurance level simplifies the procurement process and regulatory compliance for software users. </p>
+<p>The CEST prototype is implemented as a SaaS platform, with software vendors having control over their sensitive IP in the form of source code, executables and CEST generated reports. This is made possible by the CEST platform’s architecture. </p>
+<p>For the CEST prototype, our team chose to use the TEE technique called Intel® SGX. This technology relies on hardware mode limiting a privileged user to access anything running inside an “enclave”, which is the name of a program running in the SGX TEE. The platform CEST is responsible for running analysis tools inside SGX. All parties can separately and in their own time review the tools and validate that they do not leak any data outside of their own runtime. When both Vendor and Evaluator agree that the tools are correct and relevant, they can use it in CEST. To be sure that the tools are correct they can build the tools themselves with the TEE to find out what the enclave will look like. This way they get a MRENCLAVE-value, which is in short a hash of the program running in the enclave. With this hash they can verify that an enclave running on another system is in fact running the same code.  </p>
+<p>As mentioned above the CEST prototype is implemented as a SaaS solution to make it easy for interested parties to try it, but since no TEE is 100% unhackable Vendors can still be cautious about sending their IP to a SaaS solution, fortunately CEST could be run on vendor premises and the reports could be sent to evaluator. This will work since the reports are integrity protected by the hardware and can be attested by a remote party (Evaluator).  </p>
+<p>The CEST solution is only limited by the robustness of the TEE and the accuracy, precision of the tools. Moreover, as TEE technology continues to advance and become more secure, the trustworthiness of CEST will only increase. Additionally, the recent surge in the popularity of AI may pave the way for more sophisticated and precise software analysis tools that can further enhance the accuracy and precision of CEST and close the loop, reducing the need for human-based inspections of evaluated software. </p>
+
+        </div>
+        <div class="col-lg-3 tag-column"><b>Tags</b>
+<ul class="list-group list-group-flush">
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/cest/">CEST</a> <span
+            class="badge bg-primary rounded-pill">4</span>
+    </li>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/confidential-computing/">Confidential Computing</a> <span
+            class="badge bg-primary rounded-pill">1</span>
+    </li>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/intellectual-property-ip-protection/">Intellectual Property (IP) Protection</a> <span
+            class="badge bg-primary rounded-pill">1</span>
+    </li>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/security-analysis-tools/">Security Analysis Tools</a> <span
+            class="badge bg-primary rounded-pill">3</span>
+    </li>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/software-assurance/">Software Assurance</a> <span
+            class="badge bg-primary rounded-pill">2</span>
+    </li>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a class="link-dark" href="http://cest.se/tags/trust-model/">Trust Model</a> <span
+            class="badge bg-primary rounded-pill">1</span>
+    </li>
+    
+</ul>
+</div>
+    </div>
+</div>
+
+        </div>
+<footer class="footer bg-black small text-center text-white-50 mt-auto">
+    <div>
+        <img src="/assets/img/Vinnova_white_payoff_RGB.png" alt="" class="vinnova-img">
+        <p>This project has received funding from the Swedish Vinnova Innovation
+Agency with diary number No 2021-01690.</p>
+    </div>
+    <div class="container px-4 px-lg-5">
+        &copy; CEST. All rights reserved. 
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src='/js/scripts.js'></script>
+
+
+
+
+</body>
+</html>

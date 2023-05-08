@@ -3,8 +3,7 @@ title: "The Assurance Tools Used by CEST"
 date: 2022-11-11T10:59:01+01:00
 featured_image: "/assets/img/assurance_tools.png"
 tags: 
-- "Tools"
-- "Assurance"
+- "Security Analysis Tools"
 - "CEST"
 ---
 ## Introduction:

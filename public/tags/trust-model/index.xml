@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trust Model on CEST</title>
+    <link>http://cest.se/tags/trust-model/</link>
+    <description>Recent content in Trust Model on CEST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 10:59:01 +0100</lastBuildDate><atom:link href="http://cest.se/tags/trust-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing a New Trust Model for Software Assurance: The CEST Platform</title>
+      <link>http://cest.se/articles/article4/</link>
+      <pubDate>Fri, 11 Nov 2022 10:59:01 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article4/</guid>
+      <description>Introduction: Trust is a crucial factor in software assurance, particularly when multiple parties are involved. In this article, we propose a new trust model for software assurance that aims to minimize the required trust between different actors by introducing an intermediary that everyone trusts: the CEST-s platform. We&amp;rsquo;ll discuss the rationale behind this trust model, how trusted computing plays a role, and the advantages of a location-agnostic approach.
+The Trust Model: CEST-s Platform The CEST-s platform is a confidential computing solution based on state-of-the-art hardware and open-source software.</description>
+    </item>
+    
+  </channel>
+</rss>

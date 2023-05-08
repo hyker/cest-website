@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CEST</title>
+    <link>http://cest.se/</link>
+    <description>Recent content on CEST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2022 14:48:11 +0100</lastBuildDate><atom:link href="http://cest.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confidential Computing can ease the trust burden in Software Assurance.</title>
+      <link>http://cest.se/articles/article1/</link>
+      <pubDate>Fri, 11 Nov 2022 14:37:57 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article1/</guid>
+      <description>Hyker is project partner in collaboration with RISE, Ericsson, atsec investigating how confidential computing solves trust issues in software assurance. The project is called Confidential Evaluation of Software Trustworthiness (CEST) and is funded by Vinnova – Sweden’s Innovation Agency. But before we dive into the potential of Confidential Computing, let&amp;rsquo;s take a brief look at the history of assurance throughout the history of computing. The increased complexity of software systems has led to the situation where their security and reliability have become more necessary and more challenging.</description>
+    </item>
+    
+    <item>
+      <title>Introducing a New Trust Model for Software Assurance: The CEST Platform</title>
+      <link>http://cest.se/articles/article4/</link>
+      <pubDate>Fri, 11 Nov 2022 10:59:01 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article4/</guid>
+      <description>Introduction: Trust is a crucial factor in software assurance, particularly when multiple parties are involved. In this article, we propose a new trust model for software assurance that aims to minimize the required trust between different actors by introducing an intermediary that everyone trusts: the CEST-s platform. We&amp;rsquo;ll discuss the rationale behind this trust model, how trusted computing plays a role, and the advantages of a location-agnostic approach.
+The Trust Model: CEST-s Platform The CEST-s platform is a confidential computing solution based on state-of-the-art hardware and open-source software.</description>
+    </item>
+    
+    <item>
+      <title>The Assurance Tools Used by CEST</title>
+      <link>http://cest.se/articles/article3/</link>
+      <pubDate>Fri, 11 Nov 2022 10:59:01 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article3/</guid>
+      <description>Introduction: In our previous article, we discussed the criteria for selecting the right assurance tools for your project. In this follow-up article, we&amp;rsquo;ll show the specific tools that were chosen in the CEST Assurance Study to address software assurance in the telco and automotive industries. (Some of the tools where changed after the &amp;ldquo;hands-on examination&amp;rdquo;). By learning about these tools, you can gain insights into the features and capabilities you should look for when choosing assurance tools for your own projects.</description>
+    </item>
+    
+    <item>
+      <title>Criteria for Selecting the Right Assurance Tools for Your Project</title>
+      <link>http://cest.se/articles/article2/</link>
+      <pubDate>Thu, 10 Nov 2022 10:59:01 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article2/</guid>
+      <description>Introduction: When it comes to software assurance, choosing the right tools can make all the difference. In this blog post, we&amp;rsquo;ll share the key criteria to consider when selecting assurance tools, based on the &amp;ldquo;CEST Assurance Study.&amp;rdquo; By understanding these criteria, you can make a more informed decision and ensure that your assurance tools will be effective in addressing your project&amp;rsquo;s specific needs.
+Criteria  Focus on Specific Test Cases: The CEST Assurance Study outlined a list of recommended test cases (No.</description>
+    </item>
+    
+  </channel>
+</rss>

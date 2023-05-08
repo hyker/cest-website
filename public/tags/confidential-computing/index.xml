@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Confidential Computing on CEST</title>
+    <link>http://cest.se/tags/confidential-computing/</link>
+    <description>Recent content in Confidential Computing on CEST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 14:37:57 +0100</lastBuildDate><atom:link href="http://cest.se/tags/confidential-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confidential Computing can ease the trust burden in Software Assurance.</title>
+      <link>http://cest.se/articles/article1/</link>
+      <pubDate>Fri, 11 Nov 2022 14:37:57 +0100</pubDate>
+      
+      <guid>http://cest.se/articles/article1/</guid>
+      <description>Hyker is project partner in collaboration with RISE, Ericsson, atsec investigating how confidential computing solves trust issues in software assurance. The project is called Confidential Evaluation of Software Trustworthiness (CEST) and is funded by Vinnova – Sweden’s Innovation Agency. But before we dive into the potential of Confidential Computing, let&amp;rsquo;s take a brief look at the history of assurance throughout the history of computing. The increased complexity of software systems has led to the situation where their security and reliability have become more necessary and more challenging.</description>
+    </item>
+    
+  </channel>
+</rss>

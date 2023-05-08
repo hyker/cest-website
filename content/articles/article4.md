@@ -3,7 +3,7 @@ title: "Introducing a New Trust Model for Software Assurance: The CEST Platform"
 date: 2022-11-11T10:59:01+01:00
 featured_image: "/assets/img/trust_model.png"
 tags: 
-- "Trust"
+- "Trust Model"
 - "CEST"
 ---
 ## Introduction:

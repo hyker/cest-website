@@ -67,12 +67,6 @@ securing data in transit or at rest."
     img: "assets/img/hyker.png"
   card4:
     title: "RISE"
-    text: "RISE Cybersecurity, the research and technology partner in CEST, is at the
-forefront of the cybersecurity research and development landscape in Europe.
-RISE is currently running sixteen (16) security projects, focused on IoT, cloud,
-software, AI/ML, and trusted/confidential computing, among others. RISE is
-coordinating the Swedish National Cybersecurity Research and Innovation
-Node (Cybernode.se) where industry, public sector, civil defense, and
-academia participate."
+    text: "The Cybersecurity Unit at RISE, the research and technology partner in CEST, is at the forefront of the cybersecurity research and development landscape in Europe. RISE Cybersecurity Unit is currently running sixteen (16) security projects, focused on IoT, cloud, software, AI/ML, and trusted/confidential computing, among others. Moreover, RISE Cybersecurity is coordinating the Swedish National Cybersecurity Research and Innovation Node (Cybernode.se) where industry, public sector, civil defense, and academia participate. RISE Cybersecurity Unit is also running the Cyber Range, one of the largest test and demonstration facility for Cybersecurity in Sweden."
     img: "assets/img/rise.png"
 

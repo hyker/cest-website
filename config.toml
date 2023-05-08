@@ -53,12 +53,6 @@ sbtoken = "TOKEN_HERE"
   URL = "/#contact"
   weight = 6
   
-  [[menu.main]]
-  name = "Story"
-  URL = "/story"
-  weight = 4
-
-
 # Credits
 
 # This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale

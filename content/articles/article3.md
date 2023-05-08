@@ -1,18 +1,22 @@
 ---
-title: "A Comprehensive Guide to Choosing Software Analysis Tools: Key Criteria for Success"
+title: "The Assurance Tools Used by CEST"
 date: 2022-11-11T10:59:01+01:00
-featured_image: "/assets/img/key.jpg"
+featured_image: "/assets/img/assurance_tools.png"
 tags: 
-- "TEST"
-- "GENERATED"
-- "AI"
+- "Tools"
+- "Assurance"
+- "CEST"
 ---
-When it comes to choosing the right software analysis tools for your project, there are a few key criteria that should be taken into consideration. First, it is important to understand the type of analysis that is needed. For example, if you are looking for a tool to detect security vulnerabilities, then a static analysis tool may be the best choice. If you are looking for a tool to detect coding errors, then a dynamic analysis tool may be the best choice. Additionally, if you are looking for a tool to analyze code metrics or hundreds of additional classes of bugs, then an automated tool for static analysis of binaries may be the best choice.
+## Introduction:
+In our previous article, we discussed the criteria for selecting the right assurance tools for your project. In this follow-up article, we'll show the specific tools that were chosen in the CEST Assurance Study to address software assurance in the telco and automotive industries. (Some of the tools where changed after the "hands-on examination"). By learning about these tools, you can gain insights into the features and capabilities you should look for when choosing assurance tools for your own projects.
 
-Second, it is important to consider the language that the software is written in. Different tools may be better suited for different languages, so it is important to make sure that the tool you choose is compatible with the language you are using.
+1. **Static Source Code Analyzers for C/C++**: The CEST Assurance Study selected four static source code analyzers for C/C++:
+    * **CodeChecker**: Built on the LLVM/Clang Static Analyzer toolchain, CodeChecker includes several rulesets, such as a security ruleset, and can perform checks against the SEI CERT coding standard.
+    * **Cppcheck**: Cppcheck provides a shallow analysis based on pattern matching at the token level, focusing on a low false positive rate. It detects various types of bugs, including security issues, and checks for MISRA, memory leaks, and more.
+    * **FlawFinder**: FlawFinder examines C/C++ source code and reports possible security weaknesses (CWE) sorted by risk. It detects the use of risky C-functions that can lead to buffer overflows or race conditions.
+    * **CodeQL**: CodeQL constructs a database containing essential information about an application and allows users to perform queries on the database to verify the properties of interest.
+2. **Binary Code Scanner**: The study selected Checksec as the binary code scanner. Checksec is a bash script that checks the properties of executables, such as PIE, RELRO, PaX, Canaries, ASLR, and Fortify Source. Note that there are limited open source binary code scanners available, so only one was selected for the study.
+3. **Software Component Analysis (SCA) on Binary Tools**: The CEST Assurance Study chose ScanCode for SCA on binary tools. ScanCode scans source code or binaries to detect packages and dependencies, licenses, copyrights, and more. Like binary code scanners, there are only a few open source SCA on binary tools available, so only one was selected for the study.
 
-Third, it is important to consider the level of automation that the tool provides. Some tools may require manual intervention, while others may be able to automatically detect and report on potential issues.
-
-Fourth, it is important to consider the type of access that the tool has to the software. Some tools may require access to the source code, while others may be able...
-
-
+## Conclusion:
+The CEST Assurance Study selected a range of open source tools to address various software assurance needs in the telco and automotive industries. By understanding the features and capabilities of these tools, you can make more informed decisions when selecting assurance tools for your own projects. Remember to consider the criteria we discussed in our [previous article](/articles/article2/) to ensure that the tools you choose will effectively address the specific needs of your software and help maintain the highest level of quality and security.

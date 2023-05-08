@@ -55,10 +55,10 @@ window.addEventListener('DOMContentLoaded', event => {
   // video 4 sure
   var evideo = document.getElementById("evideo");
 
-  evideo.addEventListener("mouseover", function toggleControls() {
+  evideo?.addEventListener("mouseover", function toggleControls() {
     this.setAttribute("controls", "controls");
   })
-  evideo.addEventListener("mouseout", function toggleControls() {
+  evideo?.addEventListener("mouseout", function toggleControls() {
     this.removeAttribute("controls");
   });
 

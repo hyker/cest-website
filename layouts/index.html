@@ -40,34 +40,6 @@
         </section>
         {{ end }}
 
-        <!-- About -->
-        {{ with site.Data.homepage.about }}
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5 ">
-              <h1 id="about" style="text-align: center;">{{ .title }}</h1>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    {{ range $index, $element := .items }}
-                        {{ $isOdd := mod $index 2 }}
-                        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                            <div class="col-lg-6 align-items-center justify-content-center d-flex"><img class="img-fluid" src="{{ .img }}" alt="..." /></div>
-                            <div class="col-lg-6 {{ if eq $isOdd 1 }} order-lg-first {{ end }}">
-                                <div class="bg-black text-center h-100 project">
-                                    <div class="d-flex h-100">
-                                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                                            <h4 class="text-white">{{ .title }}</h4>
-                                            <p class="mb-0 text-white-50">{{ .text }}</p>
-                                            <hr class="d-none d-lg-block mb-0 ms-0" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    {{ end  }} 
-                </div>
-            </div>
-        </section>
-        {{ end }}
-
         <!-- Vision-->
         <section class="bg-light" >
           <div class="container vision-section" id="vision">

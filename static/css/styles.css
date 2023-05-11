@@ -11829,3 +11829,9 @@ h1.mx-auto.my-0.text-uppercase.mb-5.main-title {
 
   min-height:357px;
 }
+
+
+.fix-bad-grad{
+  height: 100px;
+  background: linear-gradient(to top, #000 0%,  rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 75%);
+}

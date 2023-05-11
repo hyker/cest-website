@@ -14,7 +14,7 @@ introduction:
   button:
     enable: true
     text: "Vision"
-    url: "/#vision"
+    url: "/articles/vision"
   image: "assets/img/analysis.jpg"
   video: "assets/vid/short-vid.mp4#t=3"
 about:

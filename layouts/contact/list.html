@@ -1,0 +1,42 @@
+{{ define "main" }}
+<!-- Members -->
+<div class="container">
+
+  <form action="mailto:info@cest.se" method="post" enctype="text/plain" class="row g-3">
+    <div class="col col-lg-4 mx-5">
+    <h1 class="mb-3"> Contact Us </h1>
+    <p>We're thrilled that you're interested in learning more about our services! Our team is here to provide the information and assistance you need. Whether you have a simple question or need a comprehensive solution, we're ready to help.</p>
+    <p>If you're looking for more information or have any questions, please don't hesitate to reach out. You can email us directly at: <a href="mailto:info@cest.se">info@cest.se</a></p>
+    <p>Would you like to see our solutions in action? We're pleased to offer demonstrations to help you understand our offerings better. To request a demo, please reach out to us at: <a href="mailto:demo@cest.se">demo@cest.se</a></p>
+    <p>We look forward to hearing from you and working together in the future!</p>
+</div>
+    <div class="col col-lg-6">
+    <div class="mb-3">
+        <div class="row g-3 align-items-center">
+          <label for="recipient-name" class="col-auto"> Full Name:</label>
+          <input type="text" name="subject" class="form-control" id="recipient-name">
+        </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="row g-3 align-items-center">
+        <label for="recipient-email" class="col-auto"> E-mail:</label>
+        <input type="email" class="form-control" id="recipient-email">
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <div class="row g-3 align-items-center">
+        <label for="message" class="col-auto"> Message:</label>
+        <textarea  name="body" class="form-control" id="message" rows="3"></textarea>
+      </div>
+    </div>
+
+    <button type="submit" type="button" class="btn btn-primary">Send</button>
+
+    </div>
+  </form>
+
+</div>
+
+{{ end }}

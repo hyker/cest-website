@@ -1,0 +1,14 @@
+{{ define "main"}}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <h1>{{ .Title }}</h1>
+            <img src="{{ .Params.featured_image }}" class="img-fluid mb-3 article-image" alt="...">
+            {{ .Content }}
+        </div>
+        <div class="col-lg-3 tag-column">
+            {{- partial "tags.html" . -}}
+        </div>
+    </div>
+</div>
+{{ end }}

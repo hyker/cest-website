@@ -1,0 +1,18 @@
+{{ define "main" }}
+<!-- Members -->
+<div class="container">
+  <h1 id="consortium" style="text-align: center;">Solution</h1>
+  {{ range .Pages.ByPublishDate }}
+  <div class="row mb-3">
+    <div class="col">
+      <h4 class="text m-0">{{ .Title }}</h4>
+      <div class="text-black-50 mb-2"><span>{{ .Content }}  </span></div>
+      <div class="ratio ratio-16x9 ">
+        <video id="evideo" src="{{ .Params.Vid }}" title="YouTube video" controls allowfullscreen></video>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  </div>
+</div>
+{{ end }}

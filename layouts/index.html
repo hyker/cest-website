@@ -10,7 +10,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         {{ with site.Data.homepage.main }}
-                        <h1 class="mx-auto my-0 text-uppercase">{{ .header.title }}</h1>
+                        <h1  class="mx-auto my-0 text-uppercase mb-5 main-title">{{ .header.title }}</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description }}</h2>
                         <a class="btn btn-primary" href="{{ .header.button.url }}">{{ .header.button.text }}</a>
                         {{ end }}

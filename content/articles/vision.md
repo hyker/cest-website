@@ -1,6 +1,9 @@
 ---
 title: "Vision"
 date: 2022-11-30T14:48:11+01:00
+featured_image: "/assets/img/CEST-logo-simple.png"
+tags: 
+- "CEST"
 ---
 Based on the current state of affairs, and observed trends in regulations, technologies and geopolitics, the CEST Consortium agreed on the vision of building a Confidential Software Security Assurance environment meeting the following challenges:
 1. Intellectual property – Regulators should consider the software suppliers’ and vendors’ intellectual property (IP) concerns and formulate their regulations with considerations on protecting this valuable IP asset.

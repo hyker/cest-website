@@ -11822,3 +11822,10 @@ h1.mx-auto.my-0.text-uppercase.mb-5.main-title {
 
 .article-image {max-height: 600px;}
 
+
+.consortium-member img {max-height: 150px;}
+
+.consortium-member .small.text-black-50.mb-2 {
+
+  min-height:357px;
+}

@@ -11761,6 +11761,12 @@ h2.text-white-50.mx-auto.mt-2.mb-5 {
   border-radius: 3px;
 }
 
+h1.mx-auto.my-0.text-uppercase.mb-5.main-title {
+  font-size: 3.5rem !important;
+  line-height: 3.5rem !important;
+  letter-spacing: 0.6rem !important;
+}
+
 
 .video-container-cest {
   position: relative;

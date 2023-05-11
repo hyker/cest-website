@@ -7,7 +7,7 @@ title = 'CEST'
 [params]
 logo = "/assets/img/CEST-logo-simple-white.png"
 favicon = "/assets/favicon.png"
-footer_logo = "/assets/img/Vinnova_white_payoff_RGB.png"
+footer_logo = "/assets/img/vinnova_green_payoff_rgb.png"
 
 # Info
 address = "123 Arch B1W, GNU/Linux"

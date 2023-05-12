@@ -10,42 +10,18 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         {{ with site.Data.homepage.main }}
-                        <h1  class="mx-auto my-0 text-uppercase mb-5 main-title">{{ .header.title }}</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ .header.description }}</h2>
-                        <a class="btn btn-primary" href="{{ .header.button.url }}">{{ .header.button.text }}</a>
+                        <h1 id="css-hack1" class="mx-auto my-0 text-uppercase mb-3 main-title">{{ .header.title }}</h1>
+                        <h2 id="css-hack2" class="text-white-50 mx-auto mb-5">{{ .header.description }}</h2>
+                        {{ end }}
+                        {{ with site.Data.homepage.introduction }}
+                        <h4 class="text-white-50 text-center mt-5">{{ .title }}</h4>
+                        <p class="text-white-50 text-center enhance-background">{{ .desc1 }}</p>
                         {{ end }}
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- introduction -->
-        {{ with site.Data.homepage.introduction }}
-        <section class="about-section " id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-2 text-center">{{ .title }}</h2>
-                        <p class="text-white-50 text-center">{{ .desc1 }}</p>
-                        <p class="text-white-50 text-center">{{ .desc2 }}</p>
-                        {{ if .button.enable }}
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-primary about-btn " href="{{ .button.url }}">{{ .button.text }}</a>
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
-                <!-- <img class="img-fluid" src="{{ .image }}" alt="..." /> -->
-            </div>
-        </section>
-        {{ end }}
-
-        <!-- Contact -->
-        <section class="" id="contact">
-        
-          <div class="fix-bad-grad"></div>
-          
-        </section>
 {{- partial "footer.html" . -}}
 </body>
 </html>

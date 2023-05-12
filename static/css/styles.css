@@ -11752,20 +11752,32 @@ body {
   max-height: 400px;
 }
 
-h2.text-white-50.mx-auto.mt-2.mb-5 {
-  font-weight: bold;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  color: white !important;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px;
-  border-radius: 3px;
+
+@media (max-width: 440px) {
+
+  #css-hack1 {
+    font-size: 2.4rem !important;
+    line-height: 2.4rem !important;
+    letter-spacing: 0.5rem !important;
+  }
+
+  #css-hack2 {
+    font-weight: bold;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 3px;
+  }
+
 }
 
-h1.mx-auto.my-0.text-uppercase.mb-5.main-title {
-  font-size: 3.5rem !important;
-  line-height: 3.5rem !important;
-  letter-spacing: 0.6rem !important;
-}
+.enhance-background {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border-radius: 3px;
+  }
 
 
 .video-container-cest {

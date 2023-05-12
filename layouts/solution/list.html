@@ -10,7 +10,7 @@
     </div>
     <div class="col-12 col-md-5">
       <div class="ratio ratio-16x9 ">
-        <video id="evideo" src="{{ .Params.Vid }}" title="YouTube video" controls allowfullscreen></video>
+        <video id="evideo" onloadstart="this.volume={{ .Params.Volume }}" src="{{ .Params.Vid }}" title="YouTube video" controls allowfullscreen></video>
       </div>
     </div>
   </div>

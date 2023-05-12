@@ -1,10 +1,10 @@
 {{ define "main" }}
 <!-- Members -->
-<div class="container-fluid">
+<div class="container-md">
   <h1 id="consortium" style="text-align: center;">Consortium</h1>
   <div class="row mb-3">
   {{ range .Site.Data.homepage.members }}
-    <div class="col consortium-member">
+    <div class="col-12 col-md-3  consortium-member">
       <div class="card">
         <div class="card-body text-center">
           <img class="img-fluid p-5" src="/{{ .img }}" alt="..." />

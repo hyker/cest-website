@@ -15,7 +15,7 @@ The CEST-s platform is a confidential computing solution based on state-of-the-a
 Vendors can be certain that their software or sensitive information does not leak out of the CEST-p.
 Evaluators can use all tools supported by the CEST-p to analyze the software and know that the output of the tools is authentic.
 Customers can trust that the results of the analysis cannot be modified arbitrarily outside the CEST-p.
-The goal is to minimize the required trust between the original actors, as illustrated in Figure 2.
+The goal is to minimize the required trust between the original actors.
 
 ### Trusted Computing
 The trust model relies on all actors trusting the hardware and the software executing on that hardware. One way to achieve trust in the software is to allow all actors to inspect and audit the open-source code running on the hardware. It is essential to trust the hardware itself and its manufacturer, but not necessarily the CEST operator.

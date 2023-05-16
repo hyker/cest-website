@@ -27,4 +27,4 @@ When it comes to software assurance, choosing the right tools can make all the d
 6. **Evaluate Tools Based on Specific Criteria**: Look for tools that analyze code based on different criteria, such as pattern matching, and compliance with standards like SEI CERT and MISRA. This will help ensure that your chosen tools provide a comprehensive assessment of your software.
 
 ## Conclusion:
-Selecting the right assurance tools is essential for the success of your project. By using these criteria to guide your selection process, you can ensure that your chosen tools will effectively address the specific needs of your software and help you maintain the highest level of quality and security. [Find out what tools CEST uses](/articles/article3/)
+Selecting the right assurance tools is essential for the success of your project. By using these criteria to guide your selection process, you can ensure that your chosen tools will effectively address the specific needs of your software and help you maintain the highest level of quality and security. [Find out what tools CEST uses](/articles/cest-tools/ )

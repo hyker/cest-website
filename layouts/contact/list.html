@@ -1,43 +1,17 @@
 {{ define "main" }}
 <!-- Members -->
 <div class="container-md">
-
-  <form action="mailto:info@cest.se" method="post" enctype="text/plain" class="row g-3">
-    <div class="col-12 col-md-4">
+  <div class="row g-3 justify-content-md-center">
+    <div class="col-5 col-md-4">
       <h1 class="mb-3"> Contact Us </h1>
+     
       <p>We're thrilled that you're interested in learning more about our services! Our team is here to provide the information and assistance you need. Whether you have a simple question or need a comprehensive solution, we're ready to help.</p>
-      <p>Please don't hesitate to reach out by filling out this form.</p>
+      <p>If you're looking for more information or have any questions, please don't hesitate to reach out. You can email us directly at: <img class="picture-of-text" src="/assets/img/pictureof_text1.jpg"/></p>
+      <p>Would you like to see our solutions in action? We're pleased to offer demonstrations to help you understand our offerings better. To request a demo, please reach out to us at: <img class="picture-of-text" src="/assets/img/pictureof_text2.jpg"/></p>
+
       <p>We look forward to hearing from you and working together in the future!</p>
     </div>
-    <div class="col-12 col-md-6">
-      <div class="mb-3">
-          <div class="row g-3 align-items-center">
-            <label for="recipient-name" class="col-auto"> Full Name:</label>
-            <input type="text" name="subject" class="form-control" id="recipient-name">
-          </div>
-      </div>
-
-      <div class="mb-3">
-        <div class="row g-3 align-items-center">
-          <label for="recipient-email" class="col-auto"> E-mail:</label>
-          <input type="email" class="form-control" id="recipient-email">
-        </div>
-      </div>
-
-      <div class="mb-3">
-        <div class="row g-3 align-items-center">
-          <label for="message" class="col-auto"> Message:</label>
-          <textarea  name="body" class="form-control" id="message" rows="3"></textarea>
-        </div>
-      </div>
-      
-      <div class="row g-3 mb-5">
-        <button type="submit" type="button" class="btn btn-primary">Send</button>
-      </div>
-
-    </div>
-  </form>
-
+  </div>
 </div>
 
 {{ end }}

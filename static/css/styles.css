@@ -11847,3 +11847,8 @@ body {
   height: 100px;
   background: linear-gradient(to top, #000 0%,  rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 75%);
 }
+
+
+.picture-of-text {
+  height: 24px; 
+}

@@ -1,5 +1,5 @@
 ---
-title: "Confidential Computing can ease the trust burden in Software Assurance."
+title: "Confidential Computing can ease the trust burden in Software Assurance"
 date: 2022-11-11T14:37:57+01:00
 featured_image: "/assets/img/factory.png"
 tags: 
@@ -9,7 +9,6 @@ tags:
 - "Intellectual Property (IP) Protection"
 - "Security Analysis Tools"
 ---
-  
 The increased complexity of software systems has led to the situation where their security and reliability have become more necessary and more challenging. As a response, researchers and developers are constantly advancing software assurance techniques and tools that increase the assurance productivity. For example, one advancement in software assurance is the use of fuzz testing, which involves automatically generating random inputs to a program in order to find unexpected behavior. Fuzz testing has been shown to be effective at identifying security vulnerabilities that might have been missed by traditional manual testing methods. 
 
 Despite constant advances in software security assurance, the demand for increased security is higher than ever. In today's digital world, the number of business-critical programs has skyrocketed. This coupled with the fact that software updates and patches are being released more frequently leads to a high burden for software vendors and assurance teams. 

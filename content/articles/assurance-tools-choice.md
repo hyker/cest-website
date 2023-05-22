@@ -8,7 +8,7 @@ tags:
 - "Security Analysis Tools"
 ---
 ## Introduction:
-When it comes to software assurance, choosing the right tools can make all the difference. In this blog post, we'll share the key criteria to consider when selecting assurance tools, based on the "CEST Assurance Study." By understanding these criteria, you can make a more informed decision and ensure that your assurance tools will be effective in addressing your project's specific needs.
+When it comes to software assurance, choosing the right tools can make all the difference. In this article, we'll share the key criteria to consider when selecting assurance tools, based on the "CEST Assurance Study." By understanding these criteria, you can make a more informed decision and ensure that your assurance tools will be effective in addressing your project's specific needs.
 
 ## Criteria
 1. **Focus on Specific Test Cases**:
@@ -19,8 +19,8 @@ When it comes to software assurance, choosing the right tools can make all the d
         - Static source code analysis tools
         - Binary code scanners
         - Software Component Analysis (SCA) on binary tools
-    2. The find a selection through literature study
-    3. limit selection through hands-on examination
+    2. Find a selection through literature study
+    3. Limit selection through hands-on examination
 3. **Use Open Source**: Open source tools often provide cost-effective and widely-supported solutions. When possible, prioritize open source options for your assurance needs. For the CEST prototype open source is used as a means to increase trust in the platform and the resulting reports.
 4. **Consider Programming Languages**: Ensure that the tools you select can work with the programming languages used in your project, such as C/C++ source code and binary.
 5. **Choose Widely Used and State-of-the-Art Tools**: Select tools that are widely used and considered state-of-the-art, as these tools are more likely to have been tested and refined through real-world use.

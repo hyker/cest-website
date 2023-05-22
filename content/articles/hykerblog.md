@@ -9,10 +9,7 @@ tags:
 - "Intellectual Property (IP) Protection"
 - "Security Analysis Tools"
 ---
-Hyker is project partner in collaboration with RISE, Ericsson, atsec investigating how confidential computing solves trust issues in software assurance. The project is called Confidential Evaluation of Software Trustworthiness (CEST) and is funded by Vinnova – Sweden’s Innovation Agency.  
-
-But before we dive into the potential of Confidential Computing, let's take a brief look at the history of assurance throughout the history of computing.  
-
+  
 The increased complexity of software systems has led to the situation where their security and reliability have become more necessary and more challenging. As a response, researchers and developers are constantly advancing software assurance techniques and tools that increase the assurance productivity. For example, one advancement in software assurance is the use of fuzz testing, which involves automatically generating random inputs to a program in order to find unexpected behavior. Fuzz testing has been shown to be effective at identifying security vulnerabilities that might have been missed by traditional manual testing methods. 
 
 Despite constant advances in software security assurance, the demand for increased security is higher than ever. In today's digital world, the number of business-critical programs has skyrocketed. This coupled with the fact that software updates and patches are being released more frequently leads to a high burden for software vendors and assurance teams. 

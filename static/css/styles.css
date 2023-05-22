@@ -11834,20 +11834,21 @@ body {
 
 .article-image {max-height: 600px;}
 
-
-.consortium-member img {max-height: 140px;}
-
-.consortium-member .small.text-black-50.mb-2 {
-
-  min-height:357px;
+.consortium-member img {
+  height: 140px; /* Adjust this value based on your needs */
+  object-fit: contain; /* This property is used to maintain the aspect ratio of the images */
 }
 
+/*
+.consortium-member .small.text-black-50.mb-2 {
+  min-height:357px;
+}
+*/
 
 .fix-bad-grad{
   height: 100px;
   background: linear-gradient(to top, #000 0%,  rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 75%);
 }
-
 
 .picture-of-text {
   height: 24px; 

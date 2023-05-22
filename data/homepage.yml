@@ -9,7 +9,7 @@ main:
 
 # About
 introduction:
-  title: "Provide assurance evidence without unnecessary exposure of your proprietary software source code"
+  title: "Provide assurance evidence without exposure of your proprietary software source code"
   desc1: "CEST provides a confidential software security assurance environment enabling software supply chains to be compliant with regulations, standards, and corporate assurance requirements"
   button:
     enable: true
